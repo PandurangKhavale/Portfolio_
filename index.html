@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pandurang Khavale - Portfolio</title>
+  <meta name="description" content="Pandurang Khavale's portfolio: Computer Science student, projects, skills, certifications, and contact info." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <a href="#" class="nav-logo" aria-label="Home">PK</a>
+
+        <!-- mobile nav toggle -->
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" title="Open navigation">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <!-- theme toggle -->
+        <button class="theme-toggle" aria-label="Toggle dark/light theme" aria-pressed="false" title="Toggle theme">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+
+        <ul class="nav-menu" role="menubar" aria-label="Primary">
+          <li class="nav-item" role="none"><a role="menuitem" href="#about" class="nav-link">About</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item" role="none"><a role="menuitem" href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero section" aria-label="Introduction">
+      <div class="hero-inner">
+        <h1 class="hero-title">Hey, I'm Pandurang Khavale <span class="wave">👋</span></h1>
+
+        <!-- Resume button: visible text + icon -->
+        <a
+          href="resume.pdf"
+          class="btn resume-btn"
+          download="Pandurang_Khavale_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download Pandurang Khavale resume"
+        >
+          <i class="fas fa-file-download" aria-hidden="true"></i>
+          <span class="btn-text">Resume</span>
+        </a>
+
+        <p class="subtitle">
+          A final-year Computer Science and Business Systems student with a strong interest in cloud computing, machine learning, and software development.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-inner container">
+        <h2>About Me</h2>
+        <p>
+          I am a quick learner, detail-oriented, and passionate about continuous growth. Currently deepening my knowledge in Java, Data Structures & Algorithms. Looking for internship opportunities to learn through real-world experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="section-inner container">
+        <h2>Education</h2>
+        <div class="education-container">
+          <div class="education-item">
+            <h3>B.Tech, Computer Science & Business Systems</h3>
+            <p>KIT's College of Engineering (Autonomous) | Kolhapur</p>
+            <p>Nov 2022 - Present | GPA: 6.85</p>
+          </div>
+          <div class="education-item">
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p>K.D. Junior College, Parawa | Parbhani</p>
+            <p>2020 - 2021 | Percentage: 93.00%</p>
+          </div>
+          <div class="education-item">
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p>Bhartiya Bal Vidhya Mandir | Parbhani</p>
+            <p>2018 - 2019 | Percentage: 88.60%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section-inner container">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <h3>Student</h3>
+          <div class="experience-info">KIT's College of Engineering (Autonomous), Kolhapur | Nov 2022 - Present</div>
+          <ul>
+            <li>Participated in inter-college hackathons and technical events.</li>
+            <li>Volunteered during tech fests and department events.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-inner container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>Designed and developed a responsive personal portfolio using HTML, CSS, and JavaScript. Features include dark mode toggle, smooth scrolling, and modern animations. Hosted on GitHub Pages.</p>
+            <a class="btn" href="https://github.com/PandurangKhavale" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://pandurangkhavale.github.io/Portfolio/" target="_blank" rel="noopener">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-inner container">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <div class="skills-grid">
+              <div class="skill-card"><i class="fab fa-java" aria-hidden="true"></i> Java</div>
+              <div class="skill-card"><i class="fas fa-database" aria-hidden="true"></i> SQL</div>
+              <div class="skill-card"><i class="fas fa-code" aria-hidden="true"></i> C</div>
+              <div class="skill-card"><i class="fab fa-python" aria-hidden="true"></i> Python</div>
+              <div class="skill-card"><i class="fab fa-html5" aria-hidden="true"></i> HTML</div>
+              <div class="skill-card"><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS</div>
+              <div class="skill-card"><i class="fab fa-js" aria-hidden="true"></i> JavaScript</div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Software & Tools</h3>
+            <div class="skills-grid">
+              <div class="skill-card"><i class="fab fa-github" aria-hidden="true"></i> GitHub</div>
+              <div class="skill-card"><i class="fas fa-database" aria-hidden="true"></i> MySQL</div>
+              <div class="skill-card"><i class="fab fa-git-alt" aria-hidden="true"></i> Git</div>
+              <div class="skill-card"><i class="fas fa-code" aria-hidden="true"></i> VS Code</div>
+              <div class="skill-card"><i class="fas fa-file-word" aria-hidden="true"></i> Microsoft Word</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+      <div class="section-inner container">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+          <div class="certification-item">
+            <h3>Google AI Essentials</h3>
+            <p>Coursera - Issued Oct 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/2PV9HGU0JO3Q?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" class="cert-link" target="_blank" rel="noopener">View Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+          <div class="certification-item">
+            <h3>Adobe India Hackathon</h3>
+            <p>Adobe - Issued Aug 2025</p>
+            <a href="https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/9c549726-3577-491d-9f0f-a1e8f707ccbd.jpg" class="cert-link" target="_blank" rel="noopener">View Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+          <div class="certification-item">
+            <h3>Leading Team: Developing as a Leader</h3>
+            <p>Coursera - Issued Jun 2023</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/AJ622S22W5DT?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" class="cert-link" target="_blank" rel="noopener">View Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+          <div class="certification-item">
+            <h3>Macroeconomics for Business Management</h3>
+            <p>Coursera - Issued Apr 2023</p>
+            <a href="#" class="cert-link" target="_blank" rel="noopener">View Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-inner container">
+        <h2>Contact</h2>
+        <p>My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        <div class="social-links" role="navigation" aria-label="Social links">
+          <a href="https://github.com/PandurangKhavale" target="_blank" aria-label="GitHub" rel="noopener" title="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/pandurangkhavale/" target="_blank" aria-label="LinkedIn" rel="noopener" title="LinkedIn">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://x.com/pandurangkhavle" target="_blank" aria-label="X (Twitter)" rel="noopener" title="X (Twitter)">
+            <i class="fab fa-x-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:pandurangkhavale@outlook.com" aria-label="Email" rel="noopener" title="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p class="copyright">&copy; <span id="year"></span> Pandurang Khavale. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
